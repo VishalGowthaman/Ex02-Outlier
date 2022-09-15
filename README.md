@@ -1,4 +1,5 @@
-# Ex02-Outlier
+
+### DATASET BOXPLOT WITH OUTLIERS(WEIGHT_HEIGHT)# Ex02-Outlier
 
 # AIM
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
@@ -148,12 +149,12 @@ sns.boxplot(x='height',data=df4)
 ![](./18.png)
 ### DATASET NULL VALUES(WEIGHT_HEIGHT)
 ![](./19.png)
-### DATASET SHAPE(WEIGHT_HEIGHT)
-![](./20.png)
 ### DATASET BOXPLOT WITH OUTLIERS(WEIGHT_HEIGHT)
-![](./21.png)
+![](./20.png)
 ### DATASET AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
+![](./21.png)
 ![](./22.png)
+### DATASET SHAPE(WEIGHT_HEIGHT)
 ![](./23.png)
 ### DATASET BOXPLOT AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
 ![](./24.png)

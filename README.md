@@ -1,5 +1,4 @@
-
-### DATASET BOXPLOT WITH OUTLIERS(WEIGHT_HEIGHT)# Ex02-Outlier
+# Ex02-OUTLIER
 
 # AIM
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,

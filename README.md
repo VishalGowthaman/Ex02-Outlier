@@ -1,6 +1,4 @@
-IQR=q3-q1 #INTERQUARTILE RANGE
-ul =q3+0.5*IQR
-ll =q1-1.5*IQR# Ex02-OUTLIER
+### EX -02 OUTLIER
 
 # AIM
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,

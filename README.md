@@ -1,4 +1,6 @@
-# Ex02-OUTLIER
+IQR=q3-q1 #INTERQUARTILE RANGE
+ul =q3+0.5*IQR
+ll =q1-1.5*IQR# Ex02-OUTLIER
 
 # AIM
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
@@ -63,8 +65,8 @@ q3=df['price_per_sqft'].quantile(0.65)
 print("First Quantile =",q1,"Second quantile =",q3)
 
 IQR=q3-q1 #INTERQUARTILE RANGE
-u1=q3+1.5*IQR
-l1=q1-1.5*IQR
+ul =q3+0.5*IQR
+ll =q1-1.5*IQR
 
 df1=df[((df['price_per_sqft']<=l1)&(df['price_per_sqft']>u1))]
 df1
